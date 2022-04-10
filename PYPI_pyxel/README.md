@@ -1,9 +1,7 @@
 
 
 Le(s) code(s) suivant(s) sont fait en <u><b> PYthon </b></u>
-<div>
-<title>voici une image de présentation quand le projet sera terminé : </title>
-</div>
+
 
 ![img.png](reple.png) 
 
