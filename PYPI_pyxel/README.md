@@ -5,8 +5,8 @@ Le(s) code(s) suivant(s) sont fait en <u><b> PYthon </b></u>
 
 ![img.png](reple.png) 
 
-fichier d'explication sur le projet de La Nuit Du Code présenté ci-dessous :
-## La nuit du code (6h de codage non-stop):
+fichier d'explication sur le projet de codage présenté ci-dessous :
+## Programmation(6h de codage non-stop):
 - projet sur le jeu de la vie (automate cellulaire)
 - <u>**__Récapitulatif des choses à faire :__**</u>
 
