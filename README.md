@@ -3,9 +3,9 @@
    programming and make auto repeatable programms
    like idempotency scripts
 #### 🌱 I’m currently learning :
-   python a bit
-   shell / bash
-   excel macros / VB-VBA
+-   python a bit
+-   shell / bash
+-   excel macros / VB-VBA
 -   web developement :
        HTML / CSS / PhP / MySQL
        all in one package (together)
