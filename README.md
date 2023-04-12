@@ -5,15 +5,16 @@
 #### 🌱 I’m currently learning :
 -   swift mobile development
 -   python a bit
--   shell / bash
+-   shell / bash(i love bash)
 -   excel macros / VB-VBA
 -   web developement :
        HTML / CSS / PhP / MySQL / JS
 -   I currently using Windows and Linux with Ubuntu and AlmaLinux9 sys
+-   i now creating application with Xcode in Imac/ios apple systems
 
-#### 💞️ I’m looking to collaborate on discord python projects
+#### 💞️ I’m looking to collaborate on discord python projects and more...
    ultratavor#4380
-#### 📫 How to reach me : by GitHub
+#### 📫 How to reach me :
 &nbsp;    mail : must0second0unnamed64@gmail.com 
 #### 🍪 cookies eater 
 &nbsp;   mail : eat.cookies.free.ads@gmail.com
