@@ -1,7 +1,8 @@
 #### 👋 Hi, I’m @felttl
-#### 👀 I’m interested in :
-   programming and make auto repeatable programms
-   like idempotency scripts
+#### my passsion
+- game dev
+- web dev
+- mobile dev
 #### 🌱 I’m currently learning :
 - programming languages & web
 #### 📫 How to reach me :
