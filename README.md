@@ -1,5 +1,5 @@
 #### 👋 Hi, I’m @felttl
-#### my passsion
+#### &hearts; my passsion
 - game dev
 - web dev
 - mobile dev
