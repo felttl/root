@@ -18,9 +18,7 @@
       <li>mobile
 		<ul>
 			<li>android studio</li>
-			<li>
-			[]1	no framework yet....(spring sooner)
-			</li>
+			<li>no framework yet....(spring sooner)</li>
 		</ul>
 	  </li>
     </ul>
