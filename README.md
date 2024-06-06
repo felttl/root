@@ -30,7 +30,10 @@
 		<li>FrontEnd
 			<ul>
 				<li>html</li>
-				<li>css</>			
+				<li>css</>	
+					<ul>
+						<li>bootstrap</li>
+					</ul>
 				<li>js
 					<ul>js and css
 						<li>Tailwind CSS</li>
