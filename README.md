@@ -9,16 +9,16 @@
   <li>
     <p>java</p>
     <li><p>desktop</p>
-        <li>
+        <ul>
           <li>swing</li>
           <li>awt</li>
           <li>javaFX</li>
-        </li>
-    </li>
+        </ul>
+    </ul>
     <li>mobile
       <li>android studio</li>
       <p>no framework yet....(spring sooner)</p>
-    </li>
+    </ul>
   </li>
 </ul>
   
