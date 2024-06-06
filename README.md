@@ -3,6 +3,27 @@
 - game dev
 - web dev
 - mobile dev
+
+#### tech 👨‍💻 details 
+<ul>
+  <li>
+    <p>java</p>
+    <li><p>desktop</p>
+        <li>
+          <li>swing</li>
+          <li>awt</li>
+          <li>javaFX</li>
+        </li>
+    </li>
+    <li>mobile
+      <li>android studio</li>
+      <p>no framework yet....(spring sooner)</p>
+    </li>
+  </li>
+</ul>
+  
+
+
 #### 🌱 I’m currently learning :
 - programming languages & web
 #### 📫 How to reach me :
