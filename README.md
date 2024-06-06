@@ -14,10 +14,12 @@
           <li>javaFX</li>
         </ul>
     </li>
-    <ul>mobile
-      <li>android studio</li>
-      <p>no framework yet....(spring sooner)</p>
-    </ul>
+    <li>mobile
+      <ul>
+        <li>android studio</li>
+        <li>no framework yet....(spring sooner)</li>
+      </ul>
+    </li>
   </li>
 </ul>
   
