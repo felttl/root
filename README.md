@@ -6,16 +6,15 @@
 
 #### tech 👨‍💻 details 
 <ul>
-  <li>
-    <p>java</p>
-    <li><p>desktop</p>
+  <li>java
+    <li>desktop
         <ul>
           <li>swing</li>
           <li>awt</li>
           <li>javaFX</li>
         </ul>
-    </ul>
-    <li>mobile
+    </li>
+    <ul>mobile
       <li>android studio</li>
       <p>no framework yet....(spring sooner)</p>
     </ul>
