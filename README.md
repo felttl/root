@@ -75,6 +75,11 @@
   </li>
   <li>bash</li>
   <li>R</li>
+<li>SQL
+	<ul>
+		<li>MySQL</li>
+	</ul>
+</li>
 </ul>
 
   
