@@ -78,6 +78,7 @@
 <li>SQL
 	<ul>
 		<li>MySQL</li>
+		<li>SQLite</li>
 	</ul>
 </li>
 </ul>
