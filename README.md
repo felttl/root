@@ -45,7 +45,11 @@
 		<ul>
 			<li>html</li>
 			<li>css</>			
-			<li>js</li>
+			<li>js
+				<ul>
+					<li><a href="https://www.chartjs.org/">chart.js</a></li>
+				</ul>
+			</li>
 			<li>php
 				<ul>
 					<li>not yet...(symfony sooner)</li>
