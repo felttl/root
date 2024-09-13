@@ -6,6 +6,19 @@
 
 #### tech 👨‍💻 details 
 <ul>
+	<li>
+		swift
+		<ul>
+			<li>
+				Xcode
+				<ul>
+					<li>
+						UIkit
+      					</li>
+				</ul>
+    			</li>
+   		</ul>
+	</li>
   <li>java
     <ul>
       <li>desktop
