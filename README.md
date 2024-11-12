@@ -15,6 +15,12 @@
 					<li>
 						UIkit
       					</li>
+					<li>
+						CoreData
+      					</li>
+					<li>
+						MapKit
+      					</li>
 				</ul>
     			</li>
    		</ul>
