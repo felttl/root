@@ -104,6 +104,11 @@
 		<li>SQLite</li>
 	</ul>
 </li>
+<li>Assembler
+	<ul>
+		<li>MIPS R2000-R3000</li>
+	</ul>
+</li>
 </ul>
 
   
