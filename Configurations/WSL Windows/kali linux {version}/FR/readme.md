@@ -53,4 +53,6 @@ et choisir kali linux et c'est bon (vous êtes libres de customiser les autres p
 https://www.kali.org/docs/troubleshooting/common-minimum-setup/
 ### pour rajouter un GUI sur windows (bar des apps en haut de l'écran (en plus)) :
 https://www.kali.org/docs/wsl/win-kex/
-### end
+
+
+<!-- end -->
