@@ -22,7 +22,7 @@ wsl --set-default-version 2
 
 5. installer kali dans le microsoft store 
 
-[https://www.microsoft.com/store/productId/9PKR34TNCV07](https://www.microsoft.com/store/productId/9PKR34TNCV07)
+https://www.microsoft.com/store/productId/9PKR34TNCV07
 
 
 6. appuyer sur ouvrir (depuis le microsoft store)
@@ -48,7 +48,7 @@ et choisir kali linux et c'est bon (vous êtes libres de customiser les autres p
 [image serait bien]
 
 ### pour des outils supplémentaire dans kali linux : 
-(https://www.kali.org/docs/troubleshooting/common-minimum-setup/)
+https://www.kali.org/docs/troubleshooting/common-minimum-setup/
 ### pour rajouter un GUI sur windows (bar des apps en haut de l'écran (en plus)) :
-(https://www.kali.org/docs/wsl/win-kex/)
+https://www.kali.org/docs/wsl/win-kex/
 ### end
