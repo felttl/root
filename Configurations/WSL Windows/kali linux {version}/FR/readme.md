@@ -21,9 +21,9 @@ wsl --set-default-version 2
 ```
 
 5. installer kali dans le microsoft store 
-<a url="https://www.microsoft.com/store/productId/9PKR34TNCV07">
-	https://www.microsoft.com/store/productId/9PKR34TNCV07
-</a>
+
+[https://www.microsoft.com/store/productId/9PKR34TNCV07](https://www.microsoft.com/store/productId/9PKR34TNCV07)
+
 
 6. appuyer sur ouvrir (depuis le microsoft store)
 
