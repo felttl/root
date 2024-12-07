@@ -106,7 +106,7 @@
 </li>
 <li>Assembler
 	<ul>
-		<li>MIPS R2000-R3000</li>
+		<li>MIPS R2000-R3000 (RISC architecture)</li>
 	</ul>
 </li>
 </ul>
