@@ -38,10 +38,9 @@ pour moi du coup ça sera (felix et root)
 et voila !
 
 ### petit tip pour gagner du temps si on se sers souvent du terminal kali (plus que powershell, et CMD, etc...)
-pour ouvrir un terminal avec kali a chaque clique droit>terminal :
-ouvrir un terminal cliquer sur l'icone qui represente une fleche vers le bar 
+pour ouvrir un terminal avec kali a chaque clique droit dans une zone du bureau ou d'un disque :
+droit>terminal, ouvrir un terminal cliquer sur l'icone qui represente une fleche [image serait bien] vers le bas
 a coté du + de la fenetre actuellement ouverte ou faites clique droit dans la barre ou 
-[image serait bien]
 l'onglet est ouvert et cliquer sur paramètre puis cliquer dans la liste a droite sur
 démarrage [image serait bien] modifier le profil par défaut avec la liste déroulante
 et choisir kali linux et c'est bon (vous êtes libres de customiser les autres paramètre pour les couleurs par exemple ça se fait aussi dans les paramètres a gauche)
@@ -49,7 +48,7 @@ et choisir kali linux et c'est bon (vous êtes libres de customiser les autres p
 [image serait bien]
 
 ### pour des outils supplémentaire dans kali linux : 
-	- https://www.kali.org/docs/troubleshooting/common-minimum-setup/
+(https://www.kali.org/docs/troubleshooting/common-minimum-setup/)
 ### pour rajouter un GUI sur windows (bar des apps en haut de l'écran (en plus)) :
-	- https://www.kali.org/docs/wsl/win-kex/
+(https://www.kali.org/docs/wsl/win-kex/)
 ### end
