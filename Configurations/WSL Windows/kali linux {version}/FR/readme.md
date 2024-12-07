@@ -1,6 +1,7 @@
 # installer wsl kali linux sur Windows 11 (w11) :
 
 0. Lancer un terminal PowerShell en mode admin 
+
 (clique droit lancer en admin depuis la recherche avec la touche Windows en écrivant PowerShell)
 
 1. ecrire la commande : 
@@ -28,6 +29,7 @@ https://www.microsoft.com/store/productId/9PKR34TNCV07
 6. appuyer sur ouvrir (depuis le microsoft store)
 
 7. configuration de l'identifiant et de l'utilisateur
+
 ici on va configurer les mot de passe et identifiant de l'utilisateur 
 (a cause/grâce du système linux qui fonctionne avec des utilisateurs et droits)
 etant donné que c'est une sorte de machine virtuelle (sous système) 
