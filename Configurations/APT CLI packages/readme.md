@@ -1,23 +1,3 @@
-
-<style>
-    span{
-        color : black;
-    }
-    a{
-        color:  cyan
-    }
-    .highlight{
-        /** color: #4444ff; **/
-        background-color: #ffff00
-    }
-    h1{
-        color: #6666ff
-    }
-    h2,h3,h4,h5{
-        color: skyblue
-    }
-</style>
-
 # packages and tools for Workspace 
 
 ### gcc 
@@ -44,13 +24,13 @@ see here : https://marketplace.visualstudio.com/items?itemName=FallenMax.mithril
 is a synthax colorizer (smooth) for many language and ca be customized effortlessly<br>
 see here : https://marketplace.visualstudio.com/items?itemName=Miladfathy.dragan-color-theme
 can can my own version of it (many of color as been customized myself) :
-[**<span class="highlight">[url not yet (WIP)]</span>**==](http://google.com)
+[**[url not yet (WIP)]**](http://google.com)
 
 ##### for customization 
 
-1. go to &nbsp;<span class="highlight">**[not yet (WIP)]**</span>
+1. go to &nbsp;**[not yet (WIP)]**
 2. change some lines 
-3. changes example : <span class="highlight">**[not yet (WIP)]**</span>
+3. changes example : **[not yet (WIP)]**
 
 - __Rainbow CSV__
 
