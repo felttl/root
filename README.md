@@ -102,12 +102,10 @@
   </li>
   <li>bash</li>
   <li>R</li>
-
 	<ul>
 		<li>MySQL</li>
 		<li>SQLite</li>
 	</ul>
-
 <li>VBA (excel macros)
 </li>
 <li>Assembler
