@@ -2,41 +2,26 @@
 
 ### gcc 
 
-Used to compile c (to use on WSL kali linux, but it's not specific it can be used in Ubuntu too, it's linux like))
+Used to compile c (to use on WSL kali linux, but it's not specific 
+it can be used in Ubuntu too, it's linux like))
 
+#### linux
 ```sh
 sudo apt install build-essential
 ```
 
-# applications 
+> ### brew
 
-### VS code (visual studio code)
+The Missing Package Manager for macOS (or Linux)
 
-### extensions : 
+see the command here (is always latest):
+https://brew.sh
 
- - __Mithril emmet__
+##### Warning
+ 
+don't forget to add brew to path (to use brew command everywhere) with the last 3 commands after the done installation
+(everything are writen there, i can't write theses commands here because it's vary on the system you are and your computer name)
+this way (copy and past to terminal theses 3 commands):
+![add to path example (img load failed)](./brew_add_to_path.png)
 
-powerful shortcut for html, css and more...<br>
-see here : https://marketplace.visualstudio.com/items?itemName=FallenMax.mithril-emmet
-
-- __dragan theme__
-
-is a synthax colorizer (smooth) for many language and ca be customized effortlessly<br>
-see here : https://marketplace.visualstudio.com/items?itemName=Miladfathy.dragan-color-theme
-can can my own version of it (many of color as been customized myself) :
-[**[url not yet (WIP)]**](http://google.com)
-
-##### for customization 
-
-1. go to &nbsp;**[not yet (WIP)]**
-2. change some lines 
-3. changes example : **[not yet (WIP)]**
-
-- __Rainbow CSV__
-
-for workers with csv files (a lot of data) to check problems directly in headers, etc... <br>
-see here : https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv<br>
-(may installed by default)
-
-
-;; end
+<!-- end-->
