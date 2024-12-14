@@ -21,7 +21,7 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 wsl --set-default-version 2
 ```
 
-5. installer kali dans le microsoft store 
+5. installer kali depuis le microsoft store 
 
 https://www.microsoft.com/store/productId/9PKR34TNCV07
 
@@ -37,7 +37,18 @@ on se fiche ici du mot de passe de l'utilisateur et de son mdp mais
 pour les personnes qui ont ce système d'exploitation il s'agirait d'une faille
 donc (ici seuelement) on mets prenom et mot de passe root 
 pour moi du coup ça sera (felix et root)
+
 et voila !
+
+8. pour désinstaller (si besoin un jour)
+
+il existe 3 parties dans windows pour désinstaller un programme/application :
+
+- le __panneau de configuration__ (a taper depuis la barre windows en appuyant sur la touche windows en forme de 4 carrés)
+- la zone des application (de windows) pour aller ici il suffit de taper paramètre depuis le même menu décrit précédemment avec la touche windows et ensuite aller dans le volet/onglet application
+- la zone des application (de microsoft store) taper application dans la barre de recherche windows (touche windows comme les etapes precedentes) et taper ensuite store si ça apparait ou microsoft store et ensuite aller dans la partie application
+cherchez ensuite votre appli a désinstaller.
+
 
 ### petit tip pour gagner du temps si on se sers souvent du terminal kali (plus que powershell, et CMD, etc...)
 pour ouvrir un terminal avec kali a chaque clique droit dans une zone du bureau ou d'un disque :
