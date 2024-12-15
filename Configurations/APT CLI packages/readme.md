@@ -1,6 +1,6 @@
 # packages and tools for Workspace 
 
-### gcc 
+> ### gcc 
 
 Used to compile c (to use on WSL kali linux, but it's not specific 
 it can be used in Ubuntu too, it's linux like))
@@ -23,5 +23,20 @@ don't forget to add brew to path (to use brew command everywhere) with the last 
 (everything are writen there, i can't write theses commands here because it's vary on the system you are and your computer name)
 this way (copy and past to terminal theses 3 commands):
 ![add to path example (img load failed)](./brew_add_to_path.png)
+
+
+> ### Docker
+
+this method can be done in any OS with a sh terminal
+there is the same method with apt package manager but to make things
+timple we instead use brew for every OS (because it's same)
+
+- requirements : brew (home brew)
+
+you just need to install docker now from brew
+```sh
+brew install docker
+```
+
 
 <!-- end-->
