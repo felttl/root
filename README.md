@@ -1,9 +1,4 @@
-#### 👋 Hi, I’m @felttl
-#### ❤️ my passion
-- desktop dev
-- mobile dev
-- web dev
-- game dev
+
 
 #### tech 👨‍💻 details 
 <ul>
@@ -118,12 +113,6 @@
   
 
 
-#### 🌱 I’m currently learning :
-- programming languages & web
-#### 📫 How to reach me :
-&nbsp;    mail : must0second0unnamed64@gmail.com 
-#### 🍪 cookies eater 
-&nbsp;   mail : eat.cookies.free.ads@gmail.com
 
 #### stats
 
