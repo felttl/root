@@ -38,7 +38,7 @@ you just need to install docker now from brew
 brew install docker
 ```
 
-> ### use Lali Linux docker image
+> ### use Kali Linux docker image
 
 ```sh
 docker pull kalilinux/kali-rolling
@@ -46,4 +46,4 @@ docker pull kalilinux/kali-rolling
 [can be found here](https://hub.docker.com/r/kalilinux/kali-rolling)
 
 
-<!-- end-->
+<!-- end -->
