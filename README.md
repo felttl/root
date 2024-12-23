@@ -97,10 +97,13 @@
   </li>
   <li>bash</li>
   <li>R</li>
-	<ul>
+  <li>SQL
+  	<ul>
 		<li>MySQL</li>
 		<li>SQLite</li>
-	</ul>
+	</ul> 
+  </li>
+
 <li>VBA (excel macros)
 </li>
 <li>Assembler
