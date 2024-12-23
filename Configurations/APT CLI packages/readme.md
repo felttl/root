@@ -38,6 +38,17 @@ you just need to install docker now from brew
 brew install docker
 ```
 
+- to run docker
+
+you must "start" the app 
+
+```sh
+open -a docker
+```
+
+if it's not working you can install Docker Desktop
+and retry (from terminal) or click the button on the app directly
+
 > ### use Kali Linux docker image
 
 ```sh
