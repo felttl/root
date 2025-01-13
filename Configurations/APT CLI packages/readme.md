@@ -21,9 +21,8 @@ https://brew.sh
  
 don't forget to add brew to path (to use brew command everywhere) with the last 3 commands after the done installation
 (everything are writen there, i can't write theses commands here because it's vary on the system you are and your computer name)
-this way (copy and past to terminal theses 3 commands):
+this way (copy and past to terminal theses 3 commands from your computer terminal output) you have an example shown bellow :
 ![add to path example (img load failed)](./brew_add_to_path.png)
-
 
 > ### Docker
 
@@ -61,5 +60,7 @@ docker pull kalilinux/kali-rolling
 ```sh
 brew install typescript
 ```
+
+
 
 <!-- end -->
