@@ -56,5 +56,10 @@ docker pull kalilinux/kali-rolling
 ```
 [can be found here](https://hub.docker.com/r/kalilinux/kali-rolling)
 
+> ### install TS (typescript to transpile JS)
+
+```sh
+brew install typescript
+```
 
 <!-- end -->
