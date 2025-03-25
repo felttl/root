@@ -53,7 +53,7 @@
 				<li>js
 					<ul>js and css
 						<li>Tailwind CSS</li>
-						<li>not yet...(react sooner)</li>
+						<li>react.js</li>
 					</ul>			
 				</li>
 				<li>php</li>		
