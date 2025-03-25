@@ -88,6 +88,8 @@
 				<li>Pyxel</li>
 			</ul>
 		</li>
+		<li>Pandas</li>
+		<li>Plotly</li>
 	</ul>
   </li>
   <li>c
