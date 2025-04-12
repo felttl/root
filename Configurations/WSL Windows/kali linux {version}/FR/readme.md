@@ -50,7 +50,12 @@ il existe 3 parties dans windows pour désinstaller un programme/application :
 cherchez ensuite votre appli a désinstaller.
 
 
-### petit tip pour gagner du temps si on se sers souvent du terminal kali (plus que powershell, et CMD, etc...)
+> [!TIP]
+> pour gagner du temps si on se sers souvent du terminal kali (plus que powershell, et CMD, etc...)
+> on peut ouvrir directement un terminal linux (WSL) depuis windows en cliquant droit
+> sur un des répertoire du bureau par exemple (ou tout autre répertoire/dossier de windows)
+> et faire "ouvrir un nouveaui terminal" ou quelque chose de similaire avec la méthode suivante :
+
 pour ouvrir un terminal avec kali a chaque clique droit dans une zone du bureau ou d'un disque :
 droit>terminal, ouvrir un terminal cliquer sur l'icone qui represente une fleche [image serait bien] vers le bas
 a coté du + de la fenetre actuellement ouverte ou faites clique droit dans la barre ou 
