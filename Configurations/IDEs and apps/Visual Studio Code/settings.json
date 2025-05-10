@@ -1,0 +1,38 @@
+{
+    "editor.fontFamily": "JetBrains Mono,Fredoka",
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily"
+    ],
+    "svg.preview.mode": "img",
+    "debug.console.fontFamily": "JetBrains Mono",
+    "scm.inputFontFamily": "JetBrains Mono",
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "editor.fontVariations": true,
+    "chat.editor.fontFamily": "JetBrains Mono",
+    "workbench.colorCustomizations": {
+
+    },
+    "workbench.colorTheme": "Default Dark+",
+    "cmake.showOptionsMovedNotification": false,
+    "editor.codeLensFontFamily": "JetBrains Mono,Fredoka",
+    "security.workspace.trust.untrustedFiles": "open",
+    "python.createEnvironment.trigger": "off",
+    "git.openRepositoryInParentFolders": "never",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "continue.enableTabAutocomplete": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "yaml.schemas": {
+        "/Users/felixmacos/.vscode/extensions/continue.continue-1.0.7-darwin-arm64/config-yaml-schema.json": [
+            ".continue/**/*.yaml"
+        ]
+    },
+    "terminal.explorerKind": "both",
+    "terminal.external.linuxExec": "Ghostty.app",
+    "terminal.external.osxExec": "Ghostty.app",
+    "terminal.integrated.defaultProfile.linux": "Ghostty.app"
+}
