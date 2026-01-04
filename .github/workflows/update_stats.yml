@@ -2,7 +2,7 @@ name: Update GitHub README stats
 
 on:
   schedule:
-    - cron: "0 3 * * *"
+    - cron: "0 3 * * *"  # tous les jours à 03:00 UTC
   workflow_dispatch:
 
 jobs:
@@ -18,26 +18,33 @@ jobs:
 
       - name: Generate streak stats
         run: |
-          curl -L \
-            "https://streak-stats.demolab.com?user=felttl&mode=weekly&theme=dark" \
+          curl -L "https://streak-stats.demolab.com?user=felttl&mode=weekly&theme=dark" \
             -o actions/felttl/stats/streak.svg
 
-      - name: Generate GitHub stats
+      - name: Generate GitHub stats safely
         run: |
-          curl -L \
-            "https://github-readme-stats.vercel.app/api?username=felttl&show_icons=true&theme=dark" \
-            -o actions/felttl/stats/github-stats.svg
+          TMP_FILE=$(mktemp)
+          HTTP_CODE=$(curl -s -w "%{http_code}" -o "$TMP_FILE" "https://github-readme-stats.vercel.app/api?username=felttl&show_icons=true&theme=dark")
+          if [ "$HTTP_CODE" -eq 200 ] && ! grep -q "unavailable" "$TMP_FILE"; then
+            mv "$TMP_FILE" actions/felttl/stats/github-stats.svg
+          else
+            echo "GitHub stats not updated (service unavailable)"
+          fi
 
-      - name: Generate top languages
+      - name: Generate top languages safely
         run: |
-          curl -L \
-            "https://github-readme-stats.vercel.app/api/top-langs?username=felttl&layout=compact&theme=dark" \
-            -o actions/felttl/stats/top-langs.svg
+          TMP_FILE=$(mktemp)
+          HTTP_CODE=$(curl -s -w "%{http_code}" -o "$TMP_FILE" "https://github-readme-stats.vercel.app/api/top-langs?username=felttl&layout=compact&theme=dark")
+          if [ "$HTTP_CODE" -eq 200 ] && ! grep -q "unavailable" "$TMP_FILE"; then
+            mv "$TMP_FILE" actions/felttl/stats/top-langs.svg
+          else
+            echo "Top languages stats not updated (service unavailable)"
+          fi
 
-      - name: Commit and push changes
+      - name: Commit and push changes if any
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add actions/felttl/stats/*.svg
-          git commit -m "chore: update README stats" || exit 0
+          git diff --cached --quiet || git commit -m "chore: update README stats"
           git push
