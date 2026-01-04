@@ -1,0 +1,43 @@
+name: Update GitHub README stats
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create stats directory
+        run: mkdir -p actions/felttl/stats
+
+      - name: Generate streak stats
+        run: |
+          curl -L \
+            "https://streak-stats.demolab.com?user=felttl&mode=weekly&theme=dark" \
+            -o actions/felttl/stats/streak.svg
+
+      - name: Generate GitHub stats
+        run: |
+          curl -L \
+            "https://github-readme-stats.vercel.app/api?username=felttl&show_icons=true&theme=dark" \
+            -o actions/felttl/stats/github-stats.svg
+
+      - name: Generate top languages
+        run: |
+          curl -L \
+            "https://github-readme-stats.vercel.app/api/top-langs?username=felttl&layout=compact&theme=dark" \
+            -o actions/felttl/stats/top-langs.svg
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add actions/felttl/stats/*.svg
+          git commit -m "chore: update README stats" || exit 0
+          git push
