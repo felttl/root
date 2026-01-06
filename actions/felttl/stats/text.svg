@@ -1,0 +1,29 @@
+<svg width="600" height="140" xmlns="http://www.w3.org/2000/svg">
+  <!-- Barre horizontale -->
+  <g transform="translate(10, 20)">
+    <rect x="0" y="0" width="273" height="10" fill="#f34b7d" rx="5" ry="5"/> <!-- 1 - C -->
+    <rect x="273" y="0" width="73" height="10" fill="#945db7"/> <!-- 6 - Q# -->
+    <rect x="346" y="0" width="61" height="10" fill="#b07219"/> <!-- 7 - Java -->
+    <rect x="407" y="0" width="31" height="10" fill="#a8b9cc"/> <!-- 8 - C++ -->
+    <rect x="438" y="0" width="26" height="10" fill="#178600"/> <!-- 9 - C# -->
+    <rect x="464" y="0" width="12" height="10" fill="#3572A5"/> <!-- 10 - Python -->
+    <rect x="476" y="0" width="1" height="10" fill="#178600" rx="5" ry="5"/> <!-- 5 - JavaScript -->
+  </g>
+
+  <!-- Texte sous la barre, colonnes décroissantes selon ton ordre -->
+  <g transform="translate(100, 50)" font-family="Arial" font-size="12">
+    <!-- Colonne gauche : indices 1 à 5 -->
+    <text x="0" y="0" fill="#f34b7d">45.5% C</text>       <!-- 1 -->
+    <text x="0" y="15" fill="#3572A5">1.92% Python</text> <!-- 2 -->
+    <text x="0" y="30" fill="#b07219">10.21% Java</text>  <!-- 3 -->
+    <text x="0" y="45" fill="#178600">4.33% C#</text>     <!-- 4 -->
+    <text x="0" y="60" fill="#178600">0.21% JavaScript</text> <!-- 5 -->
+
+    <!-- Colonne droite : indices 6 à 10 -->
+    <text x="200" y="0" fill="#945db7">12.21% Q#</text>   <!-- 6 -->
+    <text x="200" y="15" fill="#a8b9cc">5.21% C++</text>  <!-- 7 -->
+    <text x="200" y="30" fill="#178600">0.21% JS2</text> <!-- 8 -->
+    <text x="200" y="45" fill="#3572A5">0.15% LangX</text> <!-- 9 -->
+    <text x="200" y="60" fill="#b07219">0.1% LangY</text> <!-- 10 -->
+  </g>
+</svg>
