@@ -9,6 +9,7 @@
 
 $PS1 (Kali style)
 (zsh like)
+
 ```bash
 PROMPT_SHELL=${SHELL:t}
 PS1=$'%B%F{green}┌─%F{green}(%F{blue}%n@%m%F{green})-[%F{white}%~%f%F{green}]\n%F{green}└─%F{blue}$ %F{white}%b'
@@ -16,6 +17,7 @@ PS1=$'%B%F{green}┌─%F{green}(%F{blue}%n@%m%F{green})-[%F{white}%~%f%F{green}
 (exact Kali)
 <hr>
 custom style (reload with cmd "$SHELL" in terminal)
+
 ```bash
 # ~/.shell_prompt
 if [ -n "$ZSH_VERSION" ]; then
