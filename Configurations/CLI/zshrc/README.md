@@ -4,7 +4,7 @@
 
 #### Customization level 2 (without external app)
 
-> [!INFO]
+> [!Note]
 > for both .zshrc and .bashrc hidden files
 
 $PS1 (Kali style)
