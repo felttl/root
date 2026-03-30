@@ -10,4 +10,12 @@ eval "$(starship init zsh)"
 ############################## STARSHIP ##############################
 ```
 
+unicode on linux try : 
+
+```bash
+.local/share/fonts took 2s 
+❯ echo -e "\ue0b0"
+
+```
+
 [configuration file here (.toml)](./starship.toml)
