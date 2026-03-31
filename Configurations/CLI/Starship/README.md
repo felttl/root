@@ -10,12 +10,21 @@ eval "$(starship init zsh)"
 ############################## STARSHIP ##############################
 ```
 
-unicode on linux try : 
+go to the file located there : `~/.config/starship.toml`
 
-```bash
-.local/share/fonts took 2s 
-❯ echo -e "\ue0b0"
-
-```
+copy and paste the content of this file here : 
 
 [configuration file here (.toml)](./starship.toml)
+
+you should see on your computer something like this : 
+(the file may not be up to date with the filan version of toml i
+show previously
+
+![](./starshipMyConfIllu.png)
+
+> [!TIP]
+> - you can add symbols you want from here https://www.nerdfonts.com/cheat-sheet 
+> - a little bit more help from starship for configuration here https://starship.rs/config/
+> - starship preset ia have used https://starship.rs/presets/plain-text
+> - all starship presets https://starship.rs/presets/
+
