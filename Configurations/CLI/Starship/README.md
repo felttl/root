@@ -10,15 +10,16 @@ eval "$(starship init zsh)"
 ############################## STARSHIP ##############################
 ```
 
+> apparently this behavior is same for Unix (i just have tested on Unix OS (Debian, MacOS))
+
 go to the file located there : `~/.config/starship.toml`
 
 copy and paste the content of this file here : 
 
 [configuration file here (.toml)](./starship.toml)
 
-you should see on your computer something like this : 
-(the file may not be up to date with the filan version of toml i
-show previously
+you should see on your computer something like this : <br>
+(the file may not be up to date with the file version of toml i showed previously)
 
 ![](./starshipMyConfIllu.png)
 
