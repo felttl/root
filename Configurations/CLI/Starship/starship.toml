@@ -1,6 +1,6 @@
 format = """
 [](fg:#9A348E)\
-$custom\
+$os\
 [](bg:#DA627D fg:#9A348E)\
 $username\
 $hostname\
@@ -40,6 +40,7 @@ $docker_context\
 [hostname]
     ssh_only = false               # affiche toujours
     trim_at = "."                  # tronque après le premier point (équivalent de %m)
+    ssh_symbol = " "
     style = "bg:#DA627D fg:#000000"
     format = "[$hostname]($style)"
 
@@ -48,6 +49,7 @@ $docker_context\
     format = "[$path]($style)"
     truncation_length = 3
     truncation_symbol = "…/"
+    read_only = " 󰌾"
 
 # Here is how you can shorten some long paths by text replacement
 # similar to mapped_locations in Oh My Posh:
@@ -56,6 +58,7 @@ $docker_context\
     "Downloads" = "📥 "
     "Music" = "🎜 "
     "Pictures" = "📷 "
+    
 # Keep in mind that the order matters. For example:
 # "Important Documents" = "  "
 # will not be replaced, because "Documents" was already substituted before.
@@ -63,75 +66,245 @@ $docker_context\
 # "Important  " = "  "
 
 [python]
-    style = 'teal'
-    symbol = '🐍 '
+    symbol = " " # '🐍 '
+    style = "bg:#86BBD8"
     format = '[${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
     pyenv_version_name = true
     pyenv_prefix = ''
 
-[c]
-    symbol = "© "
-    style = "bg:#86BBD8"
-    format = '[[ $symbol ($version)](bg:#06969A)]($style)'
-
 [docker_context]
-    symbol = "🐳 "
+    symbol = " " # use starship istead of default : "🐳 " 
     style = "bg:#06969A"
-    format = '[[ $symbol $context ](bg:#06969A)]($style) $path'
+    format = '[[$symbol$context ](bg:#06969A)]($style) $path'
 
 [elixir]
-    symbol = "💧 "
+    symbol = " " # use starship glyph instead of default : "💧 "
     style = "bg:#86BBD8"
-    format = '[[ $symbol ($version)](bg:#06969A)]($style)'
+    format = '[[$symbol($version)](bg:#06969A)]($style)'
 
 [elm]
-    symbol = "🌳 "
+    symbol = " " # use starship glyph instead of default : "🌳 "
     style = "bg:#86BBD8"
-    format = '[[ $symbol ($version)](bg:#06969A)]($style)'
+    format = '[[$symbol($version)](bg:#06969A)]($style)'
 
 [git_branch]
-    symbol = ""
+    symbol = " " # ""
     style = "bg:#FCA17D"
-    format = '[[ $symbol $branch ](bg:#86BBD8 fg:#000000)]($style)'
+    format = '[[$symbol$branch ](bg:#86BBD8 fg:#000000)]($style)'
 
 [git_status]
     style = "bg:#FCA17D"
-    format = '[[($all_status$ahead_behind )](bg:#86BBD8 fg:#000000)]($style)'
+    format = '[[($all_status$ahead_behind)](bg:#86BBD8 fg:#000000)]($style)'
 
 [golang]
-    symbol = "🐹 "
+    symbol = " " # "🐹 "
     style = "bg:#86BBD8"
-    format = '[[ $symbol ($version)](bg:#06969A)]($style)'
+    format = '[[$symbol($version)](bg:#06969A)]($style)'
 
 [haskell]
-    symbol = "λ "
+    symbol = " " # "λ "
     style = "bg:#86BBD8"
-    format = '[[ $symbol ($version)](bg:#06969A)]($style)'
+    format = '[[$symbol($version)](bg:#06969A)]($style)'
 
 [java]
-    symbol = "☕"
+    symbol = " " # "☕"
     style = "bg:#86BBD8"
-    format = '[[ $symbol ($version)](bg:#06969A)]($style)'
+    format = '[[$symbol($version)](bg:#06969A)]($style)'
 
 [julia]
-    symbol = "ஃ "
+    symbol = " " # "ஃ "
     style = "bg:#86BBD8"
-    format = '[[ $symbol ($version)](bg:#06969A)]($style)'
+    format = '[[$symbol($version)](bg:#06969A)]($style)'
 
 [nodejs]
-    symbol = "🔷 "
-    style = "bg:#86BBD8"
-    format = '[[ $symbol ($version)](bg:#06969A)]($style)'
+    symbol = " " # "🔷 "
+    style = "bg:#86BBD8 fg:#ff0000 bold green"
+    format = '[[$symbol($version)](bg:#06969A)]($style)'
 
 [nim]
-    symbol = "👑 "
+    symbol = "󰆥 " # "👑 "
     style = "bg:#86BBD8"
-    format = '[[ $symbol ($version)](bg:#06969A)]($style)'
+    format = '[[$symbol($version)](bg:#06969A)]($style)'
 
 [rust]
-    symbol = "🦀"
+    symbol = "󱘗 " # "🦀"
     style = "bg:#86BBD8"
-    format = '[[ $symbol ($version)](bg:#06969A)]($style)'
+    format = '[[$symbol($version)](bg:#06969A)]($style)'
+
+[kotlin]
+    symbol = " "
+
+[lua]
+    symbol = " "
+
+[buf]
+    symbol = " "
+
+[bun]
+    symbol = " "
+
+[c]
+    symbol = " "
+
+[cpp]
+    symbol = " "
+
+[dart]
+    symbol = " "    
+
+[deno]
+    symbol = " "
+
+[fortran]
+    symbol = " "
+
+[ocaml]
+    symbol = " "
+
+[perl]
+    symbol = " "
+
+[php]
+    symbol = " "
+
+[pixi]
+    symbol = "󰏗 "
+
+[rlang]
+    symbol = "󰟔 "
+
+[ruby]
+    symbol = " "
+
+[scala]
+    symbol = " "
+
+[swift]
+    symbol = " "
+
+[xmake]
+    symbol = " "
+
+[podman]
+    symbol = " "
+
+[zig]
+    symbol = " "
+
+# ##################### config ##################### #
+
+[aws]
+    symbol = " "
+
+[cmake]
+    symbol = " "
+
+[conda]
+    symbol = " "
+
+[crystal]
+    symbol = " "
+
+[fennel]
+    symbol = " "
+
+[fossil_branch]
+    symbol = " "
+
+[gcloud]
+    symbol = " "
+
+[git_commit]
+    tag_symbol = '  '
+
+[gradle]
+    symbol = " "
+
+[guix_shell]
+    symbol = " "
+
+[haxe]
+    symbol = " "
+
+[hg_branch]
+    symbol = " "
+
+[memory_usage]
+    symbol = "󰍛 "
+
+[meson]
+    symbol = "󰔷 "
+
+[nix_shell]
+    symbol = " "
+
+[package]
+    symbol = "󰏗 "
+
+[pijul_channel]
+    symbol = " "
+
+[status]
+    symbol = " "
+
+# ##################### OS detection ##################### #
+
+[os]
+    style = "bg:#9A348E fg:#FDC2FF"
+    format = "[ $symbol]($style)"
+    disabled = false
+
+[os.symbols]
+    Alpaquita = " "
+    Alpine = " "
+    AlmaLinux = " "
+    Amazon = " "
+    Android = " "
+    AOSC = " "
+    Arch = " "
+    Artix = " "
+    CachyOS = " "
+    CentOS = " "
+    Debian = " "
+    DragonFly = " "
+    Elementary = " "
+    Emscripten = " "
+    EndeavourOS = " "
+    Fedora = " "
+    FreeBSD = " "
+    Garuda = "󰛓 "
+    Gentoo = " "
+    HardenedBSD = "󰞌 "
+    Illumos = "󰈸 "
+    Ios = "󰀷 "
+    Kali = " "
+    Linux = " "
+    Mabox = " "
+    Macos = " "
+    Manjaro = " "
+    Mariner = " "
+    MidnightBSD = " "
+    Mint = " "
+    NetBSD = " "
+    NixOS = " "
+    Nobara = " "
+    OpenBSD = "󰈺 "
+    openSUSE = " "
+    OracleLinux = "󰌷 "
+    Pop = " "
+    Raspbian = " "
+    Redhat = " "
+    RedHatEnterprise = " "
+    RockyLinux = " "
+    Redox = "󰀘 "
+    Solus = "󰠳 "
+    SUSE = " "
+    Ubuntu = " "
+    Unknown = " "
+    Void = " "
+    Windows = "󰍲 "
+    Zorin = " "
+
 
 #############################################################
 # count idle, working, sleeping time
@@ -167,4 +340,3 @@ $docker_context\
 #    when = "test -d ."
 #    style = "bg:#9A348E fg:#FDC2FF"    
 #    format = "[📝  ${output} lines]($style)"
-
