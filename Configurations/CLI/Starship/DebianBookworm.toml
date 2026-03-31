@@ -1,6 +1,6 @@
 format = """
 [](fg:#9A348E)\
-$custom\
+$os\
 [](bg:#DA627D fg:#9A348E)\
 $username\
 $hostname\
@@ -80,12 +80,12 @@ $docker_context\
     format = '[[ $symbol $context ](bg:#06969A)]($style) $path'
 
 [elixir]
-    symbol = " " # use starship gly^ph instead of default : "💧 "
+    symbol = " " # use starship glyph instead of default : "💧 "
     style = "bg:#86BBD8"
     format = '[[ $symbol ($version)](bg:#06969A)]($style)'
 
 [elm]
-    symbol = " " # use starship gly^ph instead of default : "🌳 "
+    symbol = " " # use starship glyph instead of default : "🌳 "
     style = "bg:#86BBD8"
     format = '[[ $symbol ($version)](bg:#06969A)]($style)'
 
@@ -165,9 +165,6 @@ symbol = " "
 [deno]
 symbol = " "
 
-
-
-
 [fennel]
 symbol = " "
 
@@ -180,12 +177,8 @@ symbol = " "
 [gcloud]
 symbol = " "
 
-
-
 [git_commit]
 tag_symbol = '  '
-
-
 
 [gradle]
 symbol = " "
@@ -193,19 +186,11 @@ symbol = " "
 [guix_shell]
 symbol = " "
 
-
-
 [haxe]
 symbol = " "
 
 [hg_branch]
 symbol = " "
-
-
-
-
-
-
 
 [kotlin]
 symbol = " "
@@ -219,15 +204,16 @@ symbol = "󰍛 "
 [meson]
 symbol = "󰔷 "
 
-
-
 [nix_shell]
 symbol = " "
 
-
-
 [ocaml]
 symbol = " "
+
+[os]
+style = "bg:#9A348E fg:#FDC2FF"
+format = "[ $symbol]($style)"
+disabled = false
 
 [os.symbols]
 Alpaquita = " "
