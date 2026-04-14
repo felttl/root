@@ -10,7 +10,7 @@ $directory\
 $git_branch\
 $git_status\
 [](fg:#86BBD8 bg:#06969A)\
-$c\
+$python\
 $elixir\
 $elm\
 $golang\
@@ -20,15 +20,35 @@ $julia\
 $nodejs\
 $nim\
 $rust\
-$python\
+$kotlin\
+$lua\
+$buf\
+$bun\
+$c\
+$cpp\
+$dart\
+$deno\
+$fortran\
+$ocaml\
+$perl\
+$php\
+$pixi\
+$rlang\
+$ruby\
+$scala\
+$swift\
+$xmake\
+$zig\
 [](fg:#06969A bg:#33658A)\
 $docker_context\
+$custom\
 [ ](fg:#33658A)\
 """
 
 # light cyan : 06969A
 # Disable the blank line at the start of the prompt
 # add_newline = false
+
 
 # You can also replace your username with a neat symbol like  to save some space
 [username]
@@ -58,34 +78,18 @@ $docker_context\
     "Downloads" = "📥 "
     "Music" = "🎜 "
     "Pictures" = "📷 "
-    
+
 # Keep in mind that the order matters. For example:
 # "Important Documents" = "  "
 # will not be replaced, because "Documents" was already substituted before.
 # So either put "Important Documents" before "Documents" or use the substituted version:
 # "Important  " = "  "
 
-[python]
-    symbol = " " # '🐍 '
-    style = "bg:#86BBD8"
-    format = '[${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
-    pyenv_version_name = true
-    pyenv_prefix = ''
-
 [docker_context]
-    symbol = " " # use starship istead of default : "🐳 " 
+    symbol = " " # use starship istead of default : "🐳 "
     style = "bg:#06969A"
     format = '[[$symbol$context ](bg:#06969A)]($style) $path'
 
-[elixir]
-    symbol = " " # use starship glyph instead of default : "💧 "
-    style = "bg:#86BBD8"
-    format = '[[$symbol($version)](bg:#06969A)]($style)'
-
-[elm]
-    symbol = " " # use starship glyph instead of default : "🌳 "
-    style = "bg:#86BBD8"
-    format = '[[$symbol($version)](bg:#06969A)]($style)'
 
 [git_branch]
     symbol = " " # ""
@@ -96,99 +100,142 @@ $docker_context\
     style = "bg:#FCA17D"
     format = '[[($all_status$ahead_behind)](bg:#86BBD8 fg:#000000)]($style)'
 
+# ################### languages #################### #
+
+
+[python]
+    symbol = " " # '🐍 '
+    style = "fg:#86BBD8 bg:#06969A"
+    format = '[${symbol}${pyenv_prefix}(${version} )(\($virtualenv\))]($style)'
+    pyenv_version_name = true
+    pyenv_prefix = ''
+
+[elixir]
+    symbol = " " # use starship glyph instead of default : "💧 "
+    style = "fg:#86BBD8 bg:#06969A"
+    format = '[[$symbol($version)](bg:#06969A)]($style)'
+
+[elm]
+    symbol = " " # use starship glyph instead of default : "🌳 "
+    style = "fg:#86BBD8 bg:#06969A"
+    format = '[[$symbol($version)](bg:#06969A)]($style)'
+
 [golang]
     symbol = " " # "🐹 "
-    style = "bg:#86BBD8"
+    style = "fg:#86BBD8 bg:#06969A"
     format = '[[$symbol($version)](bg:#06969A)]($style)'
 
 [haskell]
     symbol = " " # "λ "
-    style = "bg:#86BBD8"
+    style = "fg:#86BBD8 bg:#06969A"
     format = '[[$symbol($version)](bg:#06969A)]($style)'
 
 [java]
     symbol = " " # "☕"
-    style = "bg:#86BBD8"
+    style = "fg:#86BBD8 bg:#06969A"
     format = '[[$symbol($version)](bg:#06969A)]($style)'
 
 [julia]
     symbol = " " # "ஃ "
-    style = "bg:#86BBD8"
+    style = "fg:#86BBD8 bg:#06969A"
     format = '[[$symbol($version)](bg:#06969A)]($style)'
 
 [nodejs]
     symbol = " " # "🔷 "
-    style = "bg:#86BBD8 fg:#ff0000 bold green"
+    style = "fg:#86BBD8 bg:#06969A"
     format = '[[$symbol($version)](bg:#06969A)]($style)'
 
 [nim]
     symbol = "󰆥 " # "👑 "
-    style = "bg:#86BBD8"
+    style = "fg:#86BBD8 bg:#06969A"
     format = '[[$symbol($version)](bg:#06969A)]($style)'
 
 [rust]
     symbol = "󱘗 " # "🦀"
-    style = "bg:#86BBD8"
+    style = "fg:#86BBD8 bg:#06969A"
     format = '[[$symbol($version)](bg:#06969A)]($style)'
 
 [kotlin]
     symbol = " "
+    style = "fg:#86BBD8 bg:#06969A"
+    format = '[[$symbol($version)](bg:#06969A)]($style)'
 
 [lua]
     symbol = " "
+    style = "fg:#86BBD8 bg:#06969A"
+    format = '[[$symbol($version)](bg:#06969A)]($style)'
 
 [buf]
     symbol = " "
+    style = "fg:#86BBD8 bg:#06969A"
+    format = '[[$symbol($version)](bg:#06969A)]($style)'
 
 [bun]
     symbol = " "
+    style = "fg:#86BBD8 bg:#06969A"
+    format = '[[$symbol($version)](bg:#06969A)]($style)'
 
 [c]
+    style = "fg:#86BBD8 bg:#06969A"
     symbol = " "
 
 [cpp]
     symbol = " "
+    style = "fg:#86BBD8 bg:#06969A"
+    format = '[[$symbol($version)](bg:#06969A)]($style)'
 
 [dart]
-    symbol = " "    
+    symbol = " "
+    style = "fg:#86BBD8 bg:#06969A"
+    format = '[[$symbol($version)](bg:#06969A)]($style)'
 
 [deno]
     symbol = " "
+    style = "fg:#86BBD8 bg:#06969A"
+    format = '[[$symbol($version)](bg:#06969A)]($style)'
 
 [fortran]
+    style = "fg:#86BBD8 bg:#06969A"
     symbol = " "
 
 [ocaml]
+    style = "fg:#86BBD8 bg:#06969A"
     symbol = " "
 
 [perl]
+    style = "fg:#86BBD8 bg:#06969A"
     symbol = " "
 
 [php]
+    style = "fg:#86BBD8 bg:#06969A"
     symbol = " "
 
 [pixi]
+    style = "fg:#86BBD8 bg:#06969A"
     symbol = "󰏗 "
 
 [rlang]
+    style = "fg:#86BBD8 bg:#06969A"
     symbol = "󰟔 "
 
 [ruby]
+    style = "fg:#86BBD8 bg:#06969A"
     symbol = " "
 
 [scala]
+    style = "fg:#86BBD8 bg:#06969A"
     symbol = " "
 
 [swift]
+    style = "fg:#86BBD8 bg:#06969A"
     symbol = " "
 
 [xmake]
+    style = "fg:#86BBD8 bg:#06969A"
     symbol = " "
 
-[podman]
-    symbol = " "
-
 [zig]
+    style = "fg:#86BBD8 bg:#06969A"
     symbol = " "
 
 # ##################### config ##################### #
@@ -247,7 +294,7 @@ $docker_context\
 [status]
     symbol = " "
 
-# ##################### OS detection ##################### #
+# ################## OS detection ################## #
 
 [os]
     style = "bg:#9A348E fg:#FDC2FF"
@@ -306,26 +353,45 @@ $docker_context\
     Zorin = " "
 
 
-#############################################################
+# ##################### CUSTOM ##################### #
+#           be carefull order count (ordered)        #
+#          (displayed in the same order where        #
+#          they are written in this file)            #
+# ################################################## #
+
+[custom.podman]
+    command = "podman --version | awk '{print $3}'"
+    when = """ test -x "$(command -v podman)" """
+    symbol = " "
+    style = "bold bg:#33658A fg:purple"
+    format = '[[$symbol$output ]($style)](bold)'
+
+# ################################################## #
 # count idle, working, sleeping time
 
-[time]
-    disabled = false
-    style = "bg:#33658A"
-    format = '[[ ⏰ $time ](bg:#9A348E)]($style)'
+#[time]
+#    disabled = false
+#    style = "bg:#33658A"
+#    format = '[[ ⏰ $time ](bg:#9A348E)]($style)'
 
 
-###############################################################
+# ################################################## #
 
 # count project lines (when moving repertories it updates)
 # require python for number formatting (adding space each 3 char numbers)
 
+# proble: time limit for starship (500ms) to compute anything before display limit
+# if we don't detect in the tree that we are in a project (outside git project)
+# we should compute much more than 500ms
+
 #[custom.project_lines]
 #    command = """
-#    total=$(find . -type f \
+#    total=$(find . -maxDepth 3 -type f \
 #        ! -path '*/.git/*' \
 #        ! -path '*/.idea/*' \
 #        ! -path '*/node_modules/*' \
+#        ! -path '*/venv/*' \
+#        ! -path '*/__pycache__/*' \
 #        -exec wc -l {} + 2>/dev/null | awk 'END {print $1}')
 #    # if in project ? 
 #    [ -z "$total" ] || [ "$total" -eq 0 ] && exit 1
