@@ -106,8 +106,7 @@ $custom\
 [python]
     symbol = " " # '🐍 '
     style = "fg:#86BBD8 bg:#06969A"
-    format = '[${symbol}${pyenv_prefix}(${version} )(\($virtualenv\))]($style)'
-    pyenv_version_name = true
+    format = '[$symbol$pyenv_prefix$version \($virtualenv\)]($style)'
     pyenv_prefix = ''
 
 [elixir]
